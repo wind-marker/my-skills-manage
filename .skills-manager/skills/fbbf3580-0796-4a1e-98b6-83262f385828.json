@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fbbf3580-0796-4a1e-98b6-83262f385828",
+  "path": "ssh-remote-connection",
+  "path_key": "ssh-remote-connection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
