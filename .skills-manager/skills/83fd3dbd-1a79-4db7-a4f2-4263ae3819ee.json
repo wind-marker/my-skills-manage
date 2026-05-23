@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83fd3dbd-1a79-4db7-a4f2-4263ae3819ee",
+  "path": "executing-plans",
+  "path_key": "executing-plans",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers/executing-plans",
+    "subpath": "skills\\executing-plans",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90e95399-1116-407a-ac59-2db51de7840a",
+  "path": "benchmark",
+  "path_key": "benchmark",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/benchmark",
+    "subpath": "benchmark",
+    "branch": null
+  }
+}

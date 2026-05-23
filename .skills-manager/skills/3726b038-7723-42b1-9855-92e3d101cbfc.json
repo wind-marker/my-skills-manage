@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3726b038-7723-42b1-9855-92e3d101cbfc",
+  "path": "documentation-writer",
+  "path_key": "documentation-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/documentation-writer",
+    "subpath": "skills\\documentation-writer",
+    "branch": null
+  }
+}

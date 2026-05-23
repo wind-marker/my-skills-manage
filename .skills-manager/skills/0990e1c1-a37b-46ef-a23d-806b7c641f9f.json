@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0990e1c1-a37b-46ef-a23d-806b7c641f9f",
+  "path": "scrape",
+  "path_key": "scrape",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/scrape",
+    "subpath": "scrape",
+    "branch": null
+  }
+}

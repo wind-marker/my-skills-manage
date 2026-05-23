@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a8460d68-67a7-48cc-950a-ded073f4ab73",
+  "path": "cso",
+  "path_key": "cso",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/cso",
+    "subpath": "cso",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb201f21-5695-4ba5-b675-0d3646b390d6",
+  "path": "unfreeze",
+  "path_key": "unfreeze",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/unfreeze",
+    "subpath": "unfreeze",
+    "branch": null
+  }
+}

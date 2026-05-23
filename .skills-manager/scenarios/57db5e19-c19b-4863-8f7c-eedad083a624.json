@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "57db5e19-c19b-4863-8f7c-eedad083a624",
+  "name": "通用",
+  "description": "通用工具技能 - 调试、TDD、架构优化、搜索",
+  "icon": "briefcase",
+  "sort_order": 2
+}

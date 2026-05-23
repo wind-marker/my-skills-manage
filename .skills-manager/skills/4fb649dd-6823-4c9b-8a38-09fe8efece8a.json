@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4fb649dd-6823-4c9b-8a38-09fe8efece8a",
+  "path": "freeze",
+  "path_key": "freeze",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/freeze",
+    "subpath": "freeze",
+    "branch": null
+  }
+}

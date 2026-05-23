@@ -2,7 +2,7 @@
   "schema_version": 1,
   "scenario_id": "02831657-5348-40a6-a5d3-597f52ec6691",
   "name": "需求澄清",
-  "description": null,
-  "icon": "briefcase",
-  "sort_order": 999
+  "description": "Requirements clarification - stress-test plans against domain model and documentation",
+  "icon": "search",
+  "sort_order": 3
 }

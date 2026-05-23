@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "13dd219c-c961-4469-87e6-bcbbb833d6c6",
+  "path": "anysearch-2",
+  "path_key": "anysearch-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anysearch-ai/anysearch-skill/anysearch",
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "f726eb76-63b6-4104-ab94-7ffe95d55e85",
+  "name": "gstack",
+  "description": "Gstack skill suite - browser testing, security audit, performance benchmark, safety guardrails",
+  "icon": "shield",
+  "sort_order": 5
+}

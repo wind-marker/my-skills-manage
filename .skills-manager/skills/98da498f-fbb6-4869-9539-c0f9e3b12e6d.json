@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "98da498f-fbb6-4869-9539-c0f9e3b12e6d",
+  "path": "diagnose",
+  "path_key": "diagnose",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "mattpocock/skills/diagnose",
+    "subpath": "skills\\engineering\\diagnose",
+    "branch": null
+  }
+}

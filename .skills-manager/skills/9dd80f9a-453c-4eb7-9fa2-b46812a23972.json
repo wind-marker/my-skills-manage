@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9dd80f9a-453c-4eb7-9fa2-b46812a23972",
+  "path": "careful",
+  "path_key": "careful",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/careful",
+    "subpath": "careful",
+    "branch": null
+  }
+}
