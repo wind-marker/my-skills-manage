@@ -277,12 +277,42 @@
         "Verify fix on all platforms (iOS, Android, Desktop, Web)"
       ],
       "target_skills": ["debugger"]
+    },
+    "description_field_trigger_mechanism": {
+      "id": "pat-2026-05-24-001",
+      "name": "Description-Field Matching as Passive Trigger",
+      "source": "implementation_review",
+      "confidence": 0.85,
+      "applications": 1,
+      "created": "2026-05-24",
+      "category": "skill_architecture",
+      "pattern": "Claude Code skills are auto-loaded based on description field content matching conversation context",
+      "problem": "Misunderstanding skill trigger mechanisms - focusing only on hooks (stderr/stdout) while missing the primary description-field matching system",
+      "solution": {
+        "trigger_layers": [
+          "Layer 1 (Primary): Skill description field matching - Claude Code auto-loads skills when conversation context matches description keywords",
+          "Layer 2 (Supplementary): Hooks in settings.json - provide logging and optional context injection (exit 2 for stderr injection, JSON stdout for additionalContext)",
+          "Layer 3 (Manual): User explicitly invokes skill"
+        ],
+        "hook_behavior": {
+          "exit_0_stderr": "Debug log only, not injected into conversation",
+          "exit_2_stderr": "Injected into LLM context as feedback",
+          "exit_0_stdout_json": "additionalContext field injected as system reminder"
+        }
+      },
+      "quality_rules": [
+        "Analyze ALL trigger mechanisms before concluding a system is incomplete",
+        "The description field is the primary auto-trigger for Claude Code skills",
+        "Hooks are supplementary signals, not the sole trigger",
+        "Memory directories (episodic/working) are created on-demand by LLM"
+      ],
+      "target_skills": ["self-improving-agent"]
     }
   },
   "meta": {
-    "version": "1.0.0",
-    "last_updated": "2025-01-12",
-    "total_patterns": 10,
-    "categories": ["prd_structure", "prd_quality", "react_patterns", "async_patterns", "ui_patterns", "architecture", "development", "debugging"]
+    "version": "1.0.1",
+    "last_updated": "2026-05-24",
+    "total_patterns": 11,
+    "categories": ["prd_structure", "prd_quality", "react_patterns", "async_patterns", "ui_patterns", "architecture", "development", "debugging", "skill_architecture"]
   }
 }

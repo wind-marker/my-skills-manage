@@ -1,0 +1,24 @@
+{
+  "id": "ep-2026-05-24-001",
+  "timestamp": "2026-05-24T16:00:00Z",
+  "skill": "self-improving-agent",
+  "situation": "Researching whether self-improving-agent has a passive write mechanism, or requires active triggering",
+  "task": "Explore the skill's hooks, memory architecture, and trigger mechanisms",
+  "outcome": "success",
+  "initial_mistake": "Dismissed hooks as no-ops without understanding description-field matching is the primary passive trigger",
+  "correction": "User corrected the analysis - the system has 3-layer triggers: description matching (primary), hooks (supplementary), manual",
+  "root_cause": "Incomplete understanding of Claude Code's skill loading mechanism - focused only on hook stderr behavior",
+  "key_insights": [
+    "Claude Code skill description field is the primary auto-trigger mechanism",
+    "Hooks with exit 0 + stderr only go to debug logs, not conversation",
+    "Hooks with exit 2 + stderr inject into LLM context",
+    "Hooks with exit 0 + JSON stdout (additionalContext) inject as system reminder",
+    "episodic/ and working/ directories are created on-demand by LLM, not pre-created"
+  ],
+  "lesson": "Before dismissing a system as incomplete, understand ALL trigger mechanisms - the obvious (hooks) may not be the primary one",
+  "related_pattern": "description_field_trigger_mechanism",
+  "user_feedback": {
+    "rating": null,
+    "comments": "User corrected initial wrong conclusion, indicating the analysis needed deeper understanding"
+  }
+}
